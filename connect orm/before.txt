@@ -1,0 +1,21 @@
+install the package 
+npm i install 
+
+changes in the database  according to the database what you have provided in add.ts
+
+ type: "postgres",
+  host: "localhost",
+  port: 5432,
+  username: "postgres",
+  password: "1234",
+  database: "postgres",
+  entities: ["entities/*{.ts,.ts}"],
+  synchronize: true,
+  logging: true, // 
+
+
+  don't forget to make build 
+  npm i build
+
+  to run use 
+  npm run  start:dev
